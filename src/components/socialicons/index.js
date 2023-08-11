@@ -5,8 +5,6 @@ import {
   FaTelegram,
   FaFacebookF,
   FaLinkedin,
-  FaYoutube,
-  FaTwitch,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -48,3 +46,4 @@ export const Socialicons = (params) => {
     </div>
   );
 };
+export default Socialicons

@@ -64,3 +64,4 @@ export const Home = () => {
     </HelmetProvider>
   );
 };
+export default Home 

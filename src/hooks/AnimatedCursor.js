@@ -42,7 +42,7 @@ function App() {
         <input type="email" value={email} placeholder='email...' onChange={(e) => setEmail(e.target.value)} />
         <input type="text" value={text} placeholder='text...' onChange={(e) => setText(e.target.value)} />
         <input type="number" value={tel} placeholder='tel...' onChange={(e) => setTel(e.target.value)} />
-        <button>Jo'natish</button>
+        <button className='btn'>Jo'natish</button>
       </form>
     </div>
   );

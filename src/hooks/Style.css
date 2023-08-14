@@ -1,6 +1,6 @@
 .App {
     border: 2px solid rgb(188, 178, 178);
-    width: 500px;
+    width: 450px;
     height: 400px;
     margin: auto;
     display: flex;
@@ -32,6 +32,20 @@ form {
 
 input {
     height: 40px;
-    width: 440px;
+    width: 400px;
     border: none;
+}
+
+@media (max-width:400px) {
+    .App {
+        width: 300px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    input {
+        width: 250px;
+    }
 }
